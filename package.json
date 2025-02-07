@@ -1,0 +1,29 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "YouTube video and playlist downloader using yt-dlp",
+  "main": "youtube-downloader-base.js",
+  "scripts": {
+    "start": "node youtube-playlist-downloader.js",
+    "single": "node youtube-single-downloader.js",
+    "playlist": "node youtube-playlist-downloader.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "downloader",
+    "yt-dlp",
+    "video",
+    "playlist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "path": "^0.12.7",
+    "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
