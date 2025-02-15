@@ -229,7 +229,7 @@ async function downloadPlaylist() {
 
     const playlistsToDownload = [
         {
-            playlistUrl: 'https://www.youtube.com/playlist?list=PLOuGMjEXHeeDa-NZ_Y3-fKuIN9rRTzD5G',
+            playlistUrl: 'https://www.youtube.com/playlist?list=PLFLYQXBx1eBnq7bHJUkdH_C_rOXM17mLw',
             maxHeight: 720,
         },
         // Add more playlists as needed
